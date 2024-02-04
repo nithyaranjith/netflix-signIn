@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/98a1cb1e-5a1d-4b98-a46f-995272b632dd/IN-en-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    height: auto;
+}
+
+.container h1 {
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.3rem;
+    margin-left: 8rem;
+    padding-top: 1rem;
+}
+
+.SignIn-blog {
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+.SignIn-blog h2 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.input-box button,
+.input-box input {
+    height: 3.2rem;
+    width: 99%;
+    margin-block: .5rem;
+    background-color: transparent;
+    border: 1px solid rgb(239, 237, 237);
+    border-radius: 5px;
+    color: white;
+}
+
+.input-box button {
+    background-color: red;
+    border: none;
+}
+
+.input-box p {
+    color: white;
+    text-align: center;
+
+}
+
+.checkbox-link,
+.checkbox-link a {
+    color: white !important;
+}
+
+.checkbox {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+}
+
+.inner-checkbox {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.inner-checkbox input {
+    width: 1.3rem;
+    aspect-ratio: 1;
+}
+
+.inner-checkbox p {
+    color: white;
+}
+
+.checkbox p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.checkbox a {
+    text-decoration: none;
+    color: blue;
+}
+
+.checkbox-text1 {
+    margin-top: 10px;
+}
+
+.checkbox-text2 {
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 3rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer h4 {
+    padding-left: 12.3rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-top: 5rem;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+    padding-top: 1rem
+}
+
+.footer-link p {
+    line-height: 2rem;
+}
+
+.footer-link a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-dropdown {
+    padding: .5rem;
+    margin-left: 12.3rem;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+/* meadia queary */
+
+@media screen and (max-width:750px) {
+
+    .SignIn-blog h2 {
+        font-size: .9rem;
+    }
+
+    .SignIn-blog {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .input-box button,
+    .input-box input {
+        height: 2rem;
+    }
+
+    .checkbox {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .inner-checkbox {
+        width: 70%;
+    }
+
+    .checkbox-link {
+        font-size: .1rem;
+        padding-top: .3rem;
+    }
+
+    .inner-checkbox input {
+        width: .1rem;
+        aspect-ratio: 1;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer h4 {
+        padding-left: 1rem;
+        font-size: 1.1rem;
+        font-weight: 100;
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .inner-checkbox {
+        width: 70%;
+    }
+
+    .inner-checkbox input {
+        width: 1.5rem;
+        aspect-ratio: 1;
+    }
+
+    .checkbox-link {
+        font-size: .8rem;
+        padding-top: .3rem;
+    }
+
+}
